@@ -290,7 +290,8 @@ interface Window {
     msIDBTransaction(func: any): any;
     IDBKeyRange(func: any): any;
     webkitIDBKeyRange(func: any): any;
-    msIDBKeyRange(func: any): any;    
+    msIDBKeyRange(func: any): any;
+    URL: HTMLURL;
     webkitURL: HTMLURL;
     webkitRequestAnimationFrame(func: any): any;
     mozRequestAnimationFrame(func: any): any;
@@ -313,6 +314,7 @@ interface Document {
     webkitIsFullScreen: boolean;
     mozFullScreen: boolean;
     msIsFullScreen: boolean;
+    fullscreen: boolean;
     mozPointerLockElement: HTMLElement;
     msPointerLockElement: HTMLElement;
     webkitPointerLockElement: HTMLElement;
@@ -357,8 +359,8 @@ interface WebGLBuffer {
     is32Bits: boolean;
 }
 interface MouseEvent {
-    mozmovementX: number;
-    mozmovementY: number;
+    movementX: number;
+    movementY: number;
     mozMovementX: number;
     mozMovementY: number;
     webkitMovementX: number;
@@ -376,7 +378,7 @@ interface Navigator {
     isCocoonJS: boolean;
 }
 interface Screen {
-    //orientation: string;
+    orientation: string;
     mozOrientation: string;
 }
 declare module BABYLON {
