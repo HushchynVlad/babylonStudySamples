@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-airbnb"],
+  "rules": {
+    "import-name": false,
+    "jsx-boolean-value": false,
+    "jsx-no-multiline-js": false,
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "ter-arrow-parens": false
+  },
+  "jsRules": {
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "always", "ignore-bound-class-methods"]
+  }
+}

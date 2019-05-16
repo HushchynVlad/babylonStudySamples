@@ -1,0 +1,13 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babylonjs": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "typescript": "^3.4.5"
+  }
+}
